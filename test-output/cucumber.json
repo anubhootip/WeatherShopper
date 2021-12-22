@@ -1,0 +1,156 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-22T17:21:58.382Z",
+        "line": 21,
+        "name": "To Test the payment of the Moisturizer purchased",
+        "description": "",
+        "id": "moisturizer-page;to-test-the-payment-of-the-moisturizer-purchased",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5448000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Current temperature page loads successfully",
+            "match": {
+              "location": "StepDefinition.WeatherShopper_SD.current_temperature_page_loads_successfully()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Curren temperature value is displayed to the user",
+            "match": {
+              "location": "StepDefinition.WeatherShopper_SD.curren_temperature_value_is_displayed_to_the_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2496000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should be able to click on the purchase button for Moisturizer",
+            "match": {
+              "location": "StepDefinition.Moisturizer.user_should_be_able_to_click_on_the_purchase_button_for_moisturizer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5131000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user should be able to click on the Add button for lowest price of Aloe",
+            "match": {
+              "location": "StepDefinition.Moisturizer.user_should_be_able_to_click_on_the_add_button_for_lowest_price_of_aloe()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5146000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user should be able to click on the Add button for lowest price of Almond",
+            "match": {
+              "location": "StepDefinition.Moisturizer.user_should_be_able_to_click_on_the_add_button_for_lowest_price_of_almond()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2117000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user should be able to click on the Cart button to navigate to check out page",
+            "match": {
+              "location": "StepDefinition.Moisturizer.user_should_be_able_to_click_on_the_cart_button_to_navigate_to_check_out_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 156000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user should validate the sum of the items with the total sum",
+            "match": {
+              "location": "StepDefinition.Moisturizer.user_should_validate_the_sum_of_the_items_with_the_total_sum()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5097000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user click on the Pay with card button",
+            "match": {
+              "location": "StepDefinition.Moisturizer.user_click_on_the_pay_with_card_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user validates that the payment pop up is displayed",
+            "match": {
+              "location": "StepDefinition.Moisturizer.user_validates_that_the_payment_pop_up_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5038000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user should input the values for email,card number,monthyear and cvv",
+            "match": {
+              "location": "StepDefinition.Moisturizer.user_should_input_the_values_for_emailcard_numbermonthyear_and_cvv()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15188000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user should click on the payment button and payment success message should be displayed",
+            "match": {
+              "location": "StepDefinition.Moisturizer.user_should_click_on_the_payment_button_and_payment_success_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Moisturizer page",
+    "description": "",
+    "id": "moisturizer-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Moisturizer.feature",
+    "tags": []
+  }
+]

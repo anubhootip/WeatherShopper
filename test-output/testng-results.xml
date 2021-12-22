@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="125662" started-at="2021-12-22T17:20:39Z" finished-at="2021-12-22T17:22:44Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Helper.TestRunner@41e36e46]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Helper.TestRunner@7714e963]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Validate Weather Shopper Page in Firefox" duration-ms="66011" started-at="2021-12-22T17:20:39Z" finished-at="2021-12-22T17:21:45Z">
+      <class name="Helper.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Helper.TestRunner@41e36e46]" name="setUpClass" is-config="true" duration-ms="400" started-at="2021-12-22T17:20:39Z" finished-at="2021-12-22T17:20:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Helper.TestRunner@41e36e46]" name="setUp" is-config="true" duration-ms="17213" started-at="2021-12-22T17:20:39Z" finished-at="2021-12-22T17:20:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Helper.TestRunner@41e36e46]" name="runScenario" duration-ms="47588" started-at="2021-12-22T17:20:56Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-22T17:21:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Test the payment of the Moisturizer purchased"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Moisturizer page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Helper.TestRunner@41e36e46]" name="teardown" is-config="true" duration-ms="692" started-at="2021-12-22T17:21:44Z" finished-at="2021-12-22T17:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Helper.TestRunner@41e36e46]" name="tearDownClass" is-config="true" duration-ms="99" started-at="2021-12-22T17:21:45Z" finished-at="2021-12-22T17:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Helper.TestRunner -->
+    </test> <!-- Validate Weather Shopper Page in Firefox -->
+    <test name="Validate Weather Shopper Page in Chrome" duration-ms="59635" started-at="2021-12-22T17:21:45Z" finished-at="2021-12-22T17:22:44Z">
+      <class name="Helper.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Helper.TestRunner@7714e963]" name="setUpClass" is-config="true" duration-ms="12" started-at="2021-12-22T17:21:45Z" finished-at="2021-12-22T17:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Helper.TestRunner@7714e963]" name="setUp" is-config="true" duration-ms="13016" started-at="2021-12-22T17:21:45Z" finished-at="2021-12-22T17:21:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Helper.TestRunner@7714e963]" name="runScenario" duration-ms="45968" started-at="2021-12-22T17:21:58Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-22T17:22:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Test the payment of the Moisturizer purchased"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Moisturizer page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Helper.TestRunner@7714e963]" name="teardown" is-config="true" duration-ms="631" started-at="2021-12-22T17:22:44Z" finished-at="2021-12-22T17:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Helper.TestRunner@7714e963]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2021-12-22T17:22:44Z" finished-at="2021-12-22T17:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Helper.TestRunner -->
+    </test> <!-- Validate Weather Shopper Page in Chrome -->
+  </suite> <!-- TestSuite -->
+</testng-results>

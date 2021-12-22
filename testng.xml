@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="none" thread-count="4" name="TestSuite" >
+	<test  name="Validate Weather Shopper Page in Firefox" thread-count="4">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="Helper.TestRunner" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Validate Weather Shopper Page in Chrome" thread-count="4">
+		<parameter  name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="Helper.TestRunner" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- TestSuite -->

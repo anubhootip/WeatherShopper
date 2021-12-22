@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="59.616">
+<testcase classname="Moisturizer page" name="To Test the payment of the Moisturizer purchased" time="45.96">
+<system-out><![CDATA[Given Current temperature page loads successfully...........................passed
+When Curren temperature value is displayed to the user......................passed
+Then user should be able to click on the purchase button for Moisturizer....passed
+Then user should be able to click on the Add button for lowest price of Aloe.passed
+Then user should be able to click on the Add button for lowest price of Almond.passed
+Then user should be able to click on the Cart button to navigate to check out page.passed
+And user should validate the sum of the items with the total sum............passed
+When user click on the Pay with card button.................................passed
+Then user validates that the payment pop up is displayed....................passed
+Then user should input the values for email,card number,monthyear and cvv...passed
+Then user should click on the payment button and payment success message should be displayed.passed
+]]></system-out>
+</testcase>
+</testsuite>
